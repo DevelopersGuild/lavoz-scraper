@@ -1,9 +1,11 @@
 from flask import Flask
 from flask_graphql import GraphQLView
+from flask_cors import CORS
 from scrapes import get_page_length, get_link_data, get_story_data
 import graphene
 
 app = Flask(__name__)
+CORS(app)
 
 class Link(graphene.ObjectType):
     href = graphene.String()
