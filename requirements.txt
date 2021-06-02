@@ -21,6 +21,6 @@ python-dateutil==2.8.1
 requests==2.22.0
 Rx==1.6.1
 six==1.13.0
-urllib3==1.25.7
+urllib3==1.26.5
 Werkzeug==0.16.0
 yapf==0.28.0
